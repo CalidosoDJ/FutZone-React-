@@ -1,0 +1,36 @@
+.login-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+/* LADO IZQUIERDO */
+.login-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+}
+
+.login-card {
+  width: 320px;
+}
+
+/* BOTONES SOCIALES */
+.social-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+/* LADO DERECHO (IMAGEN) */
+.login-right {
+  flex: 1;
+  background: url("/img/login.jpg") no-repeat center;
+  background-size: cover;
+}

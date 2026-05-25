@@ -1,0 +1,72 @@
+/* CONTENEDOR */
+.react-calendar {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  background: rgb(251, 251, 251);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* HEADER */
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.react-calendar__navigation button {
+  background: #198754;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+/* DÍAS */
+.react-calendar__tile {
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+/* HOVER */
+.react-calendar__tile:hover {
+  background: #e8f5e9;
+}
+
+/* DÍA SELECCIONADO */
+.react-calendar__tile--active {
+  background: linear-gradient(135deg, #198754, #28a745);
+  color: white;
+  font-weight: bold;
+}
+
+/* HOY */
+.react-calendar__tile--now {
+  background: #d1f2e1;
+  border-radius: 10px;
+}
+
+/* FINES DE SEMANA */
+.react-calendar__month-view__days__day--weekend {
+  color: #dc3545;
+}
+/* RESET PARA QUE NO SE ROMPA */
+.react-calendar__tile {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 14px;
+  color: #212529 !important;
+}
+
+/* ASEGURA QUE LOS NÚMEROS SE VEAN */
+.react-calendar__tile abbr {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+}

@@ -1,0 +1,21 @@
+.hero {
+  height: 88.5vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/img/fondo\ homepage\ 2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero h1 {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+

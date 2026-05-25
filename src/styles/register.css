@@ -1,0 +1,38 @@
+body{
+  height: 100%;
+  margin: 0;
+
+}
+.img-register {
+  background: url("/img/cancha vertical.jpg") center /cover no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.img-register::before {
+  content: "";
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+}
+/* Inputs */
+.form-control {
+  border-radius: 8px;
+  background-color: rgb(241, 241, 241);
+}
+/* Botón */
+.btn-success {
+  border-radius: 8px;
+  font-weight: 500;
+}
+/* Iconos */
+.icon-btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn svg {
+  font-size: 18px;
+}

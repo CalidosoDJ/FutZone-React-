@@ -1,0 +1,7 @@
+.hero-quienes {
+  height: 50vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("/src/assets/img/fondo\ homepage\.jpeg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,28 @@
+.perfil-card {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.perfil-header {
+  background: linear-gradient(135deg, #198754, #157347);
+  padding: 1%;
+  color: white;
+}
+
+.perfil-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+}

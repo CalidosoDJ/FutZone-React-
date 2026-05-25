@@ -1,0 +1,42 @@
+.nav-hover {
+  position: relative;
+  transition: 0.3s;
+}
+.icono-convenio {
+  color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.icono-convenio:hover {
+  color: #198754;
+  transform: scale(1.2);
+}
+.nav-hover:hover {
+  color: #00ff88 !important;
+}
+
+.nav-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00ff88;
+  transition: 0.3s;
+}
+
+.nav-hover:hover::after {
+  width: 100%;
+}
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(8, 8, 8, 0.699) !important;
+}
+.navbar-brand img {
+  transition: 0.3s;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1) rotate(3deg);
+}

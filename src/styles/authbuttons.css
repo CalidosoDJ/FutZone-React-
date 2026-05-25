@@ -1,0 +1,20 @@
+.btn-success {
+  background-color: #198754;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  transform: scale(1.05);
+}
+
+.btn-outline-light {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+}
