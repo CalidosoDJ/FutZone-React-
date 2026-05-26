@@ -1,13 +1,14 @@
 import "../../styles/noticias.css";
-
-const [showModal, setShowModal] = useState(false);
-const [novedadSeleccionada, setNovedadSeleccionada] = useState(null);
+import { useState } from "react";
 
 export default function Noticias() {
+  const [showModal, setShowModal] = useState(false);
+  const [novedadSeleccionada, setNovedadSeleccionada] = useState(null);
+
   const abrirModal = (novedad) => {
-   setNovedadSeleccionada(novedad);
-   setShowModal(true);
-}
+    setNovedadSeleccionada(novedad);
+    setShowModal(true);
+  }
   const noticias = [
     {
       id: 1,
@@ -17,12 +18,12 @@ export default function Noticias() {
       fecha: "05 Abril 2026",
 
       torneo: {
-      premio: "$1.000.000",
-      equipos: 16,
-      valor: "$80.000",
-      reglas: "5 jugadores + 2 cambios",
-      hora: "7:00 PM"
-    }
+        premio: "$1.000.000",
+        equipos: 16,
+        valor: "$80.000",
+        reglas: "5 jugadores + 2 cambios",
+        hora: "7:00 PM"
+      }
     },
 
     {
